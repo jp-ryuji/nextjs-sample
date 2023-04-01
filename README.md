@@ -21,5 +21,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
     - [Install guide](https://mswjs.io/docs/getting-started/install)
     - [Mock Service Worker with Next](https://github.com/vercel/next.js/tree/canary/examples/with-msw)
       - [Here are some examples](https://mswjs.io/examples/)
+  - The relevant code goes under `mocks` and `public/mockServiceWorker.js`.
+    - See `mocks/handlers.js` about the mocked endpoints.
   - Enable/Disable
     - Mocking is enabled using the `NEXT_PUBLIC_API_MOCKING` environment variable.
